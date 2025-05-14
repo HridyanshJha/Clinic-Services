@@ -1,8 +1,7 @@
 # 🏥 Clinic-Services
 
 A responsive and interactive website designed to facilitate access to diagnosis and medical resources for patients, particularly in rural areas. The platform offers seamless navigation, a modern UI, and basic interactivity to simulate a patient-clinic connection experience.
-
-![Owner Avatar](https://avatars.githubusercontent.com/u/your-user-id)  
+  
 **Owner:** Hridyansh Jha  
 **Repository:** [Clinic-Services](https://github.com/HridyanshJha/Clinic-Services)
 
@@ -36,7 +35,7 @@ It consists of HTML, CSS, and JavaScript code to simulate a healthcare services 
 
 ## 🌐 Live Demo
 
-> Coming Soon! (You can deploy it on GitHub Pages / Netlify / Vercel)
+> https://clinic-services.netlify.app/
 
 ---
 
