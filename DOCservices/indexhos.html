@@ -6,128 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
+  <!-- Primary Meta Tags -->
   <title>Clinic Service</title>
   <meta name="title" content="Doc2Door">
-  <meta name="description" content="This is a medical html template">
+  <meta name="description" content="This is a medical HTML template">
 
-
-  <!-- 
-    - google font link
-  -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- 
-    - custom css link
-  -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="indexhos.css">
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\herobanner1.png">
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="./images/herobanner1.png">
 
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body id="top">
 
-  <!-- 
-    - #PRELOADER demonstration
-  -->
-
+  <!-- Preloader -->
   <div class="preloader" data-preloader>
     <div class="circle"></div>
   </div>
 
-
-  <!-- 
-    - #HEADER
-  -->
-
+  <!-- Header -->
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="logo">
-        <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\logoclinic-removebg.png" width="90" height="40" alt="Doc2Door home">
+        <img src="./images/logoclinic-removebg.png" width="90" height="40" alt="Doc2Door home">
       </a>
 
       <nav class="navbar" data-navbar>
-
         <div class="navbar-top">
-
           <a href="#" class="logo">
-            <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\logo3.0.png" width="60" height="25" alt="Doc2Door home">
+            <img src="./images/logo3.0.png" width="60" height="25" alt="Doc2Door home">
           </a>
-
-          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
           </button>
-
         </div>
 
         <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link title-md">Home</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link title-md">Doctors</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link title-md">Services</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link title-md">Blog</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link title-md">Contact</a>
-          </li>
-
+          <li class="navbar-item"><a href="#" class="navbar-link title-md">Home</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link title-md">Doctors</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link title-md">Services</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link title-md">Blog</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link title-md">Contact</a></li>
         </ul>
 
         <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
+          <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
         </ul>
-
       </nav>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -137,749 +75,139 @@
       <a href="#" class="btn has-before title-md">Make Appointment</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
-
     </div>
   </header>
 
-
-
-
-
+  <!-- Main -->
   <main>
     <article>
 
-      <!-- 
-        - #Unique Bg image tosterblue
-      -->
-
-      <section class="section hero" style="background-image: url('C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\uniquebg.png')" aria-label="home">
+      <!-- Hero Section -->
+      <section class="section hero" style="background-image: url('./images/uniquebg.png')" aria-label="home">
         <div class="container">
-
           <div class="hero-content">
-
             <p class="hero-subtitle has-before" data-reveal="left">Welcome To CLINIC Services</p>
-
-            <h1 class="headline-lg hero-title" data-reveal="left">
-              Find Nearest <br>
-              Doctor.
-            </h1>
+            <h1 class="headline-lg hero-title" data-reveal="left">Find Nearest <br>Doctor.</h1>
 
             <div class="hero-card" data-reveal="left">
-
               <p class="title-lg card-text">
-                Search doctors. clinics. hospitals. etc.
-                Get Appointment in less time<br>
+                Search doctors. clinics. hospitals. etc. <br>
+                Get Appointment in less time
               </p>
-              
-              <div class="wrapper">
 
+              <div class="wrapper">
                 <div class="input-wrapper title-lg">
                   <input type="text" name="location" placeholder="Locations" class="input-field">
-
                   <ion-icon name="location"></ion-icon>
                 </div>
-
                 <button class="btn has-before">
                   <ion-icon name="search"></ion-icon>
-
                   <span class="span title-md">Find Now</span>
                 </button>
-
               </div>
-
             </div>
-
           </div>
 
           <figure class="hero-banner" data-reveal="right">
-            <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\indian-young-female-doctor-isolated-green_856987-1115.avif"width="700" height="517" loading="eager" alt="hero banner"
-              class="w-100">
+            <img src="./images/indian-young-female-doctor.avif" width="700" height="517" loading="eager" alt="hero banner" class="w-100">
           </figure>
-
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
+      <!-- Services Section -->
       <section class="service" aria-label="service">
         <div class="container">
-
           <ul class="service-list">
 
             <li>
               <div class="service-card" data-reveal="bottom">
-
                 <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon1.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./images/icon1.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Pediatrics</a>
-                </h3>
-
-                <p class="card-text">
-                  Medical care for infants, children, and adolescents.
-
-                </p>
-
-                <button class="btn-circle" aria-label="read more about psychiatry">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
+                <h3 class="headline-sm card-title"><a href="#">Pediatrics</a></h3>
+                <p class="card-text">Medical care for infants, children, and adolescents.</p>
+                <button class="btn-circle" aria-label="read more"><ion-icon name="arrow-forward" aria-hidden="true"></ion-icon></button>
               </div>
             </li>
 
             <li>
               <div class="service-card" data-reveal="bottom">
-
                 <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon2.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./images/icon2.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Gynecology and Obstetrics</a>
-                </h3>
-
-                <p class="card-text">
-                  Women's health, pregnancy, childbirth, and reproductive health.
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Gynecology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
+                <h3 class="headline-sm card-title"><a href="#">Gynecology and Obstetrics</a></h3>
+                <p class="card-text">Women's health, pregnancy, childbirth, and reproductive health.</p>
+                <button class="btn-circle" aria-label="read more"><ion-icon name="arrow-forward" aria-hidden="true"></ion-icon></button>
               </div>
             </li>
 
             <li>
               <div class="service-card" data-reveal="bottom">
-
                 <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon3.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./images/icon3.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Orthopedics</a>
-                </h3>
-
-                <p class="card-text">
-                  Diagnosis and treatment of bone, joint, and muscle disorders.
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Pulmonology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
+                <h3 class="headline-sm card-title"><a href="#">Orthopedics</a></h3>
+                <p class="card-text">Diagnosis and treatment of bone, joint, and muscle disorders.</p>
+                <button class="btn-circle" aria-label="read more"><ion-icon name="arrow-forward" aria-hidden="true"></ion-icon></button>
               </div>
             </li>
 
             <li>
               <div class="service-card" data-reveal="bottom">
-
                 <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon4.png" width="71" height="71" loading="lazy" alt="icon">
+                  <img src="./images/icon4.png" width="71" height="71" loading="lazy" alt="icon">
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Cardiology</a>
-                </h3>
-
-                <p class="card-text">
-                  Heart and vascular health.
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Orthopedics">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
+                <h3 class="headline-sm card-title"><a href="#">Cardiology</a></h3>
+                <p class="card-text">Heart and vascular health.</p>
+                <button class="btn-circle" aria-label="read more"><ion-icon name="arrow-forward" aria-hidden="true"></ion-icon></button>
               </div>
             </li>
 
           </ul>
-
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
+      <!-- About Section -->
       <section class="section about" aria-labelledby="about-label">
         <div class="container">
-
           <div class="about-content">
-
             <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
-
             <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
-
             <p class="section-text" data-reveal="left">
-              CLINIC Services offering high-quality, specialized medical care tailored to meet your needs. Our team of experienced doctors is committed to providing affordable, in-clinic services that are both efficient and accessible. We prioritize immediate care to ensure that our patients receive prompt attention without long waiting times. Whether you're seeking treatment today or planning for future healthcare needs, we are here to support you every step of the way.
+              CLINIC Services offers high-quality, specialized medical care tailored to your needs. Our experienced team provides affordable and accessible in-clinic services with minimal wait times.
             </p>
 
             <ul class="tab-list" data-reveal="left">
-
-              <li>
-                <button class="tab-btn active">Vision</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Mission</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Strategy</button>
-              </li>
-
+              <li><button class="tab-btn active">Vision</button></li>
+              <li><button class="tab-btn">Mission</button></li>
+              <li><button class="tab-btn">Strategy</button></li>
             </ul>
 
             <p class="tab-text" data-reveal="left">
-              A vision for a CLINIC Services is to emphasize patient care, accessibility, and trust, while integrating modern technology to enhance the patient experience. Here’s a broader, more conceptual vision:
+              A vision for CLINIC Services is to emphasize patient care, accessibility, and trust, while integrating modern technology to enhance the patient experience.
             </p>
 
             <div class="wrapper">
-
               <ul class="about-list">
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Prioritize patient needs with a user-friendly website.</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Provide interactive tools .</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Enable easy cancellations or rescheduling options.</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Offer secure telehealth appointments for remote consultations.</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Promote preventive care and healthy lifestyle tips.</span>
-                </li>
-
-                <li class="about-item" data-reveal="left">
-                  <ion-icon name="checkmark-circle-outline"></ion-icon>
-
-                  <span class="span">Highlight doctor credentials, patient testimonials, and success stories.</span>
-                </li>
-
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">User-friendly website</span></li>
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">Interactive tools</span></li>
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">Easy rescheduling</span></li>
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">Telehealth options</span></li>
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">Preventive care tips</span></li>
+                <li class="about-item" data-reveal="left"><ion-icon name="checkmark-circle-outline"></ion-icon><span class="span">Doctor profiles & reviews</span></li>
               </ul>
-
             </div>
-
           </div>
 
           <figure class="about-banner" data-reveal="right">
-            <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\banner.png" width="554" height="678" loading="lazy" alt="about banner"
-              class="w-100">
+            <img src="./images/banner.png" width="554" height="678" loading="lazy" alt="about banner" class="w-100">
           </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #LISTING
-      -->
-
-      <section class="section listing" aria-labelledby="listing-label">
-        <div class="container">
-
-          <ul class="grid-list">
-
-            <li>
-              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Doctors Listing</p>
-
-              <h2 class="headline-md" data-reveal="left">Browse our specialized Doctors in various fields</h2>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon1.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Psychiatry</h3>
-
-                  <p class="card-text">Dr.Sanjana Mishra</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon2.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Gynecology</h3>
-
-                  <p class="card-text">Dr.Geeta Chakrabaroty</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon4.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Pulmonology</h3>
-
-                  <p class="card-text">Dr.Apoorv Jha</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon5.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Orthopedics</h3>
-
-                  <p class="card-text">Dr.Vanshika Tripathi</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon6.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Pediatrics</h3>
-
-                  <p class="card-text">Dr.Salim Nizamee</p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="listing-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\icon7.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <div>
-                  <h3 class="headline-sm card-title">Osteology</h3>
-
-                  <p class="card-text">Dr.Rakesh Chaudhary</p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      <section class="section blog" aria-labelledby="blog-label">
-        <div class="container">
-
-          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
-            News & Article
-          </p>
-
-          <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-
-                <div class="meta-wrapper">
-
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-
-                    <span class="span">By Admin</span>
-                  </div>
-
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-
-                    <span class="span">Specialist</span>
-                  </div>
-
-                </div>
-
-                <h3 class="headline-sm card-title">Could intermittent fasting reduce breast cancer</h3>
-
-                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
-
-                <p class="card-text">
-                  Intermittent fasting (IF) has gained attention as a potential strategy for improving overall health, and some emerging research suggests it might play a role in reducing the risk of certain cancers, including breast cancer. However, the exact mechanisms and its effectiveness are still being studied, and it is not yet a definitive prevention strategy. Here’s what we know so far about the potential connection between intermittent fasting and breast cancer:
-
-                </p>
-
-                <a href="#" class="btn-text title-lg">Read More</a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-
-                <div class="meta-wrapper">
-
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-
-                    <span class="span">By Admin</span>
-                  </div>
-
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-
-                    <span class="span">Specialist</span>
-                  </div>
-
-                </div>
-
-                <h3 class="headline-sm card-title">Give children more autonomy during the pandemic</h3>
-
-                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
-
-                <p class="card-text">
-                  Giving children more autonomy during the pandemic can help foster resilience, independence, and emotional well-being during a time of uncertainty. With the disruption of routines and limited social interactions, allowing children to take more control over certain aspects of their lives can improve their sense of agency and mental health. Here are ways to provide autonomy while maintaining guidance and support:
-                  <br>
-1. Choice in Daily Routines:
-                </p>
-
-                <a href="#" class="btn-text title-lg">Read More</a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="blog-card has-before has-after" data-reveal="bottom">
-
-                <div class="meta-wrapper">
-
-                  <div class="card-meta">
-                    <ion-icon name="person-outline"></ion-icon>
-
-                    <span class="span">By Admin</span>
-                  </div>
-
-                  <div class="card-meta">
-                    <ion-icon name="folder-outline"></ion-icon>
-
-                    <span class="span">Specialist</span>
-                  </div>
-
-                </div>
-
-                <h3 class="headline-sm card-title">How do binge eating and drinking impact the liver?</h3>
-
-                <time class="title-sm date" datetime="2022-01-28">28 January, 2022</time>
-
-                <p class="card-text">
-                  Binge eating and drinking can have serious negative effects on the liver, as it is the organ primarily responsible for processing and detoxifying substances like food and alcohol. Here's how each can impact the liver:
-<br>
-1. Binge Eating:
--Fatty Liver Disease**: Overeating, especially foods high in fat and sugar, can lead to non-alcoholic fatty liver disease (NAFLD). In this condition, excess fat builds up in the liver cells, which can impair liver function.
-
-                </p>
-
-                <a href="#" class="btn-text title-lg">Read More</a>
-
-              </div>
-            </li>
-
-          </ul>
-
         </div>
       </section>
 
     </article>
   </main>
 
+</body>
 
-
-
-
-  <!-- 
-    - #FOOTER bg
-  -->
-
-  <footer class="footer" style="background-image: url('C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\foot-bg.png')">
-    <div class="container">
-
-      <div class="section footer-top">
-
-        <div class="footer-brand" data-reveal="bottom">
-
-          <a href="#" class="logo">
-            <img src="C:\Users\91962\OneDrive\Desktop\CODING\javascript\PROJECTSWEB\DOCservices\logoclinic.png" width="136" height="46" loading="lazy" alt="Doc2Door home">
-          </a>
-
-          <ul class="contact-list has-after">
-
-            <li class="contact-item">
-
-              <div class="item-icon">
-                <ion-icon name="mail-open-outline"></ion-icon>
-              </div>
-
-              <div>
-                <p>
-                  Main Email : <a href="mailto:contact@website.com" class="contact-link">clinicservices@website.com</a>
-                </p>
-
-                <p>
-                  Inquiries : <a href="mailto:Info@mail.com" class="contact-link">Info@mail.com</a>
-                </p>
-              </div>
-
-            </li>
-
-            <li class="contact-item">
-
-              <div class="item-icon">
-                <ion-icon name="call-outline"></ion-icon>
-              </div>
-
-              <div>
-                <p>
-                  Office Telephone : <a href="tel:0029129102320" class="contact-link">0029129102320</a>
-                </p>
-
-                <p>
-                  Mobile : <a href="tel:000232439493" class="contact-link">+91 92324 39493</a>
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-list" data-reveal="bottom">
-
-          <p class="headline-sm footer-list-title">About Us</p>
-
-          <p class="text">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-          </p>
-
-          <address class="address">
-            <ion-icon name="map-outline"></ion-icon>
-
-            <span class="text">
-              15 Campus Road,<br>
-              Lodhi Hotel,New Delhi 110016
-            </span>
-          </address>
-
-        </div>
-
-        <ul class="footer-list" data-reveal="bottom">
-
-          <li>
-            <p class="headline-sm footer-list-title">Services</p>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Listing</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">How It Works</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">What We Offer</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Latest News</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Contact Us</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list" data-reveal="bottom">
-
-          <li>
-            <p class="headline-sm footer-list-title">Useful Links</p>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Terms of Use</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Our Services</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">Join as a Doctor</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">New Guests List</a>
-          </li>
-
-          <li>
-            <a href="#" class="text footer-link">The Team List</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-list" data-reveal="bottom">
-
-          <p class="headline-sm footer-list-title">Subscribe</p>
-
-          <form action="" class="footer-form">
-            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
-
-            <button type="submit" class="btn has-before title-md">Subscribe</button>
-          </form>
-
-          <p class="text">
-            Get the latest updates via email. Any time you may unsubscribe
-          </p>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-        <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-google"></ion-icon>
-              </a>
-            </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-  
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-  
-          </ul>
-  
-        </div>
-  
-      </div>
-    </footer>
-  
-  
-  
-  
-  
-    <!-- 
-      - #BACK TO TOP
-    -->
-  
-    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-      <ion-icon name="chevron-up"></ion-icon>
-    </a>
-  
-  
-  
-  
-  
-    <!-- 
-      - custom js link
-    -->
-    <script src="indexhos.js"></script>
-  
-    <!-- 
-      - ionicon link
-    -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
-  </body>
-  
-  </html>
+</html>
