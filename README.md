@@ -82,9 +82,9 @@ Clinic-Services/
 │
 ├── images/ # Contains image assets used in the website
 │
-├── indexhos.html # Main HTML page
-├── indexhos.css # Main CSS file
-├── indexhos.js # JavaScript file for interactivity
+├── index.html # Main HTML page
+├── style.css # Main CSS file
+├── main.js # JavaScript file for interactivity
 │
 ├── LICENSE # Project license (MIT)
 └── README.md # This file
