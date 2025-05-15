@@ -15,7 +15,6 @@ A responsive and interactive website designed to facilitate access to diagnosis 
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Folder Structure](#-folder-structure)
-- [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
 - [License](#-license)
 
