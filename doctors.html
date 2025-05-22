@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctors - Clinic Service</title>
+  <meta name="title" content="Doctors - Doc2Door">
+  <meta name="description" content="Find and book appointments with our specialized doctors">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preload" as="image" href="./images/herobanner1.png">
+</head>
+
+<body id="top">
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./images/logoclinic-removebg.png" width="90" height="40" alt="Doc2Door home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./images/logo3.0.png" width="60" height="25" alt="Doc2Door home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link title-md">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="doctors.html" class="navbar-link title-md active">Doctors</a>
+          </li>
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link title-md">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link title-md">Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link title-md">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn has-before title-md">Make Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section hero" style="background-image: url('./images/uniquebg.png')" aria-label="doctors">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle has-before" data-reveal="left">Our Medical Experts</p>
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Meet Our Specialized <br>
+              Doctors
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section listing" aria-labelledby="listing-label">
+        <div class="container">
+          <ul class="grid-list">
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Our Doctors</p>
+              <h2 class="headline-md" data-reveal="left">Expert Medical Professionals</h2>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor1.jpg" alt="Dr. Sanjana Mishra" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Sanjana Mishra</h3>
+                  <p class="doctor-specialty">Psychiatry Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>15 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Fri, 9:00 AM - 5:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor2.jpg" alt="Dr. Geeta Chakrabaroty" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Geeta Chakrabaroty</h3>
+                  <p class="doctor-specialty">Gynecology Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>12 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Sat, 10:00 AM - 6:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor3.jpg" alt="Dr. Apoorv Jha" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Apoorv Jha</h3>
+                  <p class="doctor-specialty">Pulmonology Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>10 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Fri, 8:00 AM - 4:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor4.jpg" alt="Dr. Vanshika Tripathi" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Vanshika Tripathi</h3>
+                  <p class="doctor-specialty">Orthopedics Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>8 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Sat, 9:00 AM - 7:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor5.jpg" alt="Dr. Salim Nizamee" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Salim Nizamee</h3>
+                  <p class="doctor-specialty">Pediatrics Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>14 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Fri, 8:30 AM - 4:30 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor6.jpg" alt="Dr. Rakesh Chaudhary" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Rakesh Chaudhary</h3>
+                  <p class="doctor-specialty">Osteology Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>11 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Sat, 9:30 AM - 6:30 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor7.jpg" alt="Dr. Priya Sharma" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Priya Sharma</h3>
+                  <p class="doctor-specialty">Cardiology Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>13 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Fri, 8:00 AM - 5:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="doctor-card" data-reveal="bottom">
+                <img src="./images/doctor8.jpg" alt="Dr. Rajesh Kumar" class="doctor-image">
+                <div class="doctor-info">
+                  <h3 class="headline-sm card-title">Dr. Rajesh Kumar</h3>
+                  <p class="doctor-specialty">Neurology Specialist</p>
+                  <div class="doctor-experience">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <span>16 years experience</span>
+                  </div>
+                  <p class="card-text">Available: Mon-Sat, 9:00 AM - 6:00 PM</p>
+                  <a href="#" class="btn has-before title-md">Book Appointment</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer" style="background-image: url('./images/foot-bg.png')">
+    <div class="container">
+      <div class="section footer-top">
+        <div class="footer-brand" data-reveal="bottom">
+          <a href="index.html" class="logo">
+            <img src="./images/logoclinic.png" width="136" height="46" loading="lazy" alt="Doc2Door home">
+          </a>
+          <ul class="contact-list has-after">
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+              <div>
+                <p>Main Email : <a href="mailto:contact@website.com" class="contact-link">clinicservices@website.com</a></p>
+                <p>Inquiries : <a href="mailto:Info@mail.com" class="contact-link">Info@mail.com</a></p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div>
+                <p>Office Telephone : <a href="tel:0029129102320" class="contact-link">0029129102320</a></p>
+                <p>Mobile : <a href="tel:000232439493" class="contact-link">+91 92324 39493</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
