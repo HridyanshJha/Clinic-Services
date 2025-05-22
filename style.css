@@ -13,7 +13,7 @@
     --ming: hsl(186, 72%, 24%);
     --space-cadet: hsla(226, 45%, 24%);
     --eerie-black: hsl(0, 0%, 13%);
-    --alice-blue: hsl(187, 25%, 94%);
+    --alice-blue: hsl(0, 0%, 100%);
     --gray-web: hsl(0, 0%, 50%);
     --gainsboro: hsl(0, 0%, 87%);
     --white: hsl(0, 0%, 100%);
@@ -21,11 +21,11 @@
     --white_a10: hsla(106, 100%, 50%, 0.1);
     --black: rgb(88, 86, 86);
     --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --secondary-color: #15a3c3;
     --accent-color: #e74c3c;
     --text-color: #2c3e50;
     --nav-bg: #34495e;
-    --nav-hover: #2980b9;
+    --nav-hover: #01090f;
   
     /**
      * typography
@@ -334,7 +334,8 @@
   
   .header.scrolled {
     padding-block: 10px;
-    background-color: var(--white);
+    background-color: #1e1e1e; /* or #121212 for a darker shade */
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
